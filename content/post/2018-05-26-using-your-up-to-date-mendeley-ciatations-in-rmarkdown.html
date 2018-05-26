@@ -1,0 +1,42 @@
+---
+title: Using your Mendeley ciatations in Rmarkdown
+author: Tamas Nagy
+date: '2018-05-26'
+slug: using-your-mendeley-ciatations-in-rmarkdown
+categories:
+  - R
+  - Rmarkdown
+  - Mendeley
+  - citation
+  - reference
+  - academic
+  - collaborative writing
+tags:
+  - R Markdown
+  - citr
+---
+
+
+
+<p>For a long time, I have used MS Word when I had to write a publication, with all the hassles of copy-pasting statistical results, tables, and visualizations. Of course, I was aware of R markdown, but I did not use it because of two main reasons. First, because my collaborators did not want to give up their good old practices. And second, because handling citations in R markdown seemed to be more cumbersome, compared to MS Word. Let me explain. I order to include citations in R markdown, you have to have a BibTeX file that you can generate manually from Mendeley. Then you have to read that file in R, using …. Then you can use the citr package, and R Studio will provide a pretty straightforward interface to find and easily cite your references. So, my problem was the manual generation of the BibTeX file, because doing that each time when I add a new article to Mendeley would mean a lot of additional friction.</p>
+<p>However, I have finally found a solution that can at least alleviate the second problem. So let’s see how to use an up-to-date Mendeley reference list – that is generated automatically – in R Studio when you write your article in R markdown.</p>
+<ol style="list-style-type: decimal">
+<li>Set up Mendeley BibTeX syncing in Mendeley desktop I don’t exactly know when this option became available, but I have completely missed it. It is pretty straightforward. You just go to Tools/Options/BibTeX, and enable BibTeX syncing for your whole library. You should specify a path where the .bib file will be kept, and you are done. This file will contain ALL your Mendeley references, and will be automatically updated whenever you make a change in Mendeley.</li>
+</ol>
+<div class="figure">
+<img src="/post/2018-05-26-using-your-up-to-date-mendeley-ciatations-in-rmarkdown_files/mendeley_bibtex_sync.jpg" />
+
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>Set up your R markdown document in R studio You will need the citr package which is an R studio plugin.</li>
+</ol>
+<pre class="r"><code>#install.packages(&quot;citr&quot;)
+library(citr)</code></pre>
+<p>You have to specify the citation file path</p>
+<div id="specify-citation-format" class="section level1">
+<h1>Specify citation format</h1>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Now you are all set up to add citations! # Start writing you document. Add citations using the Rstudio hotkey …</p></li>
+<li><p>The bibliography is automatically added to the compiled document</p></li>
+</ol>
+</div>

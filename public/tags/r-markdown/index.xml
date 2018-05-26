@@ -6,20 +6,18 @@
     <description>Recent content in R Markdown on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Using your Mendeley ciatations in Rmarkdown</title>
+      <link>/post/using-your-mendeley-ciatations-in-rmarkdown/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/using-your-mendeley-ciatations-in-rmarkdown/</guid>
+      <description>For a long time, I have used MS Word when I had to write a publication, with all the hassles of copy-pasting statistical results, tables, and visualizations. Of course, I was aware of R markdown, but I did not use it because of two main reasons. First, because my collaborators did not want to give up their good old practices. And second, because handling citations in R markdown seemed to be more cumbersome, compared to MS Word.</description>
     </item>
     
   </channel>

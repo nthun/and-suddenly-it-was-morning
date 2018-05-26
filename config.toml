@@ -14,8 +14,8 @@ theme = "hyde-hyde"
     author = "Tamas Nagy"
     title = "...and suddently, it was morning"
     description = "...and suddently, it was morning"
-    authorimage = "/img/hugo.png"
-    dateformat = "May 26, 2018"
+    authorimage = "/img/sun.png"
+    dateformat = "Jan 2, 2006"
     highlightjs = true
     # highlightjsstyle = "github"
     # please choose either GraphComment or Disqus
@@ -33,7 +33,7 @@ theme = "hyde-hyde"
     name = "Posts"
     weight = 100
     identifier = "posts"
-    url = "/posts/"
+    url = "/post/"
 [[menu.main]]
     name = "About"
     identifier = "about"

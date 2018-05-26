@@ -6,34 +6,71 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Academic</title>
+      <link>/categories/academic/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/development/</guid>
+      <guid>/categories/academic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Citation</title>
+      <link>/categories/citation/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/golang/</guid>
+      <guid>/categories/citation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Writing</title>
+      <link>/categories/collaborative-writing/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/collaborative-writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendeley</title>
+      <link>/categories/mendeley/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/mendeley/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>/categories/reference/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/reference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/rmarkdown/</guid>
       <description></description>
     </item>
     
