@@ -1,0 +1,41 @@
+## Basic Configuration
+baseurl = "/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Tamas Nagy"
+    title = "...and suddently, it was morning"
+    description = "...and suddently, it was morning"
+    authorimage = "/img/hugo.png"
+    dateformat = "May 26, 2018"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+## Social Accounts
+[params.social]
+    github = "nthun"
+    linkedin = "tamas-nagy-phd-549bbb42"
+    twitter = "nagyt"
+    stackoverflow = "6618803"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
